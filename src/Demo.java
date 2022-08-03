@@ -6,6 +6,9 @@ public class Demo {
 		int searchValue = 2;
 		int positionX = -1;
 		int positionY = -1;
+
+		System.out.println("***** Ejemplo de busqueda ******");
+
 		PARENT_LOOP: for (int i = 0; i < list.length; i++) {
 			for (int j = 0; j < list[i].length; j++) {
 				if (list[i][j] == searchValue) {
